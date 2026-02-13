@@ -1,0 +1,17 @@
+.mapWrapper {
+  width: 100%;
+  height: 100vh;
+}
+.mapSvg {
+  width: 100%;
+  height: 100%;
+  
+}
+.state {
+fill: #d1d5db;
+stroke: #111827;
+cursor: pointer; transition: fill 0.2s ease;
+}
+.state:hover {
+  fill: #16a34a;
+}

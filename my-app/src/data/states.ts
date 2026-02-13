@@ -1,0 +1,45 @@
+export interface NigerianState {
+  name: string;
+  capital: string;
+  population: string;
+}
+
+export const statesData: Record<string, NigerianState> = {
+  abia: { name: "Abia", capital: "Umuahia", population: "3,800,000" },
+  adamawa: { name: "Adamawa", capital: "Yola", population: "4,900,000" },
+  akwa_ibom: { name: "Akwa Ibom", capital: "Uyo", population: "6,000,000" },
+  anambra: { name: "Anambra", capital: "Awka", population: "6,400,000" },
+  bauchi: { name: "Bauchi", capital: "Bauchi", population: "7,700,000" },
+  bayelsa: { name: "Bayelsa", capital: "Yenagoa", population: "2,600,000" },
+  benue: { name: "Benue", capital: "Makurdi", population: "6,300,000" },
+  borno: { name: "Borno", capital: "Maiduguri", population: "6,800,000" },
+  cross_river: { name: "Cross River", capital: "Calabar", population: "4,500,000" },
+  delta: { name: "Delta", capital: "Asaba", population: "6,000,000" },
+  ebonyi: { name: "Ebonyi", capital: "Abakaliki", population: "3,000,000" },
+  edo: { name: "Edo", capital: "Benin City", population: "8,000,000" },
+  ekiti: { name: "Ekiti", capital: "Ado Ekiti", population: "3,300,000" },
+  enugu: { name: "Enugu", capital: "Enugu", population: "4,800,000" },
+  gombe: { name: "Gombe", capital: "Gombe", population: "3,500,000" },
+  imo: { name: "Imo", capital: "Owerri", population: "5,800,000" },
+  jigawa: { name: "Jigawa", capital: "Dutse", population: "6,200,000" },
+  kaduna: { name: "Kaduna", capital: "Kaduna", population: "9,200,000" },
+  kano: { name: "Kano", capital: "Kano", population: "15,000,000" },
+  katsina: { name: "Katsina", capital: "Katsina", population: "8,500,000" },
+  kebbi: { name: "Kebbi", capital: "Birnin Kebbi", population: "5,200,000" },
+  kogi: { name: "Kogi", capital: "Lokoja", population: "4,800,000" },
+  kwara: { name: "Kwara", capital: "Ilorin", population: "3,600,000" },
+  lagos: { name: "Lagos", capital: "Ikeja", population: "16,000,000" },
+  nasarawa: { name: "Nasarawa", capital: "Lafia", population: "3,200,000" },
+  niger: { name: "Niger", capital: "Minna", population: "6,800,000" },
+  ogun: { name: "Ogun", capital: "Abeokuta", population: "6,000,000" },
+  ondo: { name: "Ondo", capital: "Akure", population: "5,200,000" },
+  osun: { name: "Osun", capital: "Osogbo", population: "5,100,000" },
+  oyo: { name: "Oyo", capital: "Ibadan", population: "9,000,000" },
+  plateau: { name: "Plateau", capital: "Jos", population: "4,700,000" },
+  rivers: { name: "Rivers", capital: "Port Harcourt", population: "7,800,000" },
+  sokoto: { name: "Sokoto", capital: "Sokoto", population: "5,500,000" },
+  taraba: { name: "Taraba", capital: "Jalingo", population: "3,400,000" },
+  yobe: { name: "Yobe", capital: "Damaturu", population: "3,900,000" },
+  zamfara: { name: "Zamfara", capital: "Gusau", population: "5,200,000" },
+  abuja: { name: "Federal Capital Territory", capital: "Abuja", population: "4,000,000" },
+};
