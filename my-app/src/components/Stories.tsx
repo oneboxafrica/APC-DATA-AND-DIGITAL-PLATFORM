@@ -1,6 +1,8 @@
 import { useRef, useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from "../lib/utils";
+import Lady from '../../src/assets/lady.jpeg'
+import Man from '../../src/assets/Man.jpeg'
 
 export default function Stories() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -9,13 +11,13 @@ export default function Stories() {
 
   const stories = [
     { name: "Create story", isCreate: true, bg: "bg-gradient-to-br from-purple-500 to-pink-500" },
-    { name: "Noble Kim", avatar: "https://via.placeholder.com/80?text=NK" },
-    { name: "Tiana", avatar: "https://via.placeholder.com/80?text=Ti" },
-    { name: "Angie Olayemi", avatar: "https://via.placeholder.com/80?text=AO" },
-    { name: "Olurunleke", avatar: "https://via.placeholder.com/80?text=OL" },
-    { name: "John Doe", avatar: "https://via.placeholder.com/80?text=JD" },
-    { name: "Sarah Lee", avatar: "https://via.placeholder.com/80?text=SL" },
-    { name: "Mike Ross", avatar: "https://via.placeholder.com/80?text=MR" },
+    { name: "Noble Kim", avatar: Lady },
+    { name: "Tiana", avatar: Man },
+    // { name: "Angie Olayemi", avatar: "https://via.placeholder.com/80?text=AO" },
+    // { name: "Olurunleke", avatar: "https://via.placeholder.com/80?text=OL" },
+    // { name: "John Doe", avatar: "https://via.placeholder.com/80?text=JD" },
+    // { name: "Sarah Lee", avatar: "https://via.placeholder.com/80?text=SL" },
+    // { name: "Mike Ross", avatar: "https://via.placeholder.com/80?text=MR" },
   ];
 
   const checkScroll = () => {
@@ -81,8 +83,8 @@ export default function Stories() {
       <div
         ref={scrollRef}
        className={cn(
-    "grid grid-flow-col gap-3 p-4 pb-6 overflow-x-auto scrollbar-hide scroll-smooth snap-x snap-mandatory",
-    "auto-cols-[calc(16.666%-0.75rem)]",           
+    "grid grid-flow-col gap-3 p-4 pb-6 overflow-x-hidden scrollbar-hide scroll-smooth snap-x snap-mandatory",
+    "auto-cols-[calc(33%-0.75rem)]",           
     "sm:auto-cols-[calc(16.666%-0.75rem)]",           
     "lg:auto-cols-[92px]"                         
   )}

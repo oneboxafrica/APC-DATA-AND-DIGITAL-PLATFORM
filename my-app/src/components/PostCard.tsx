@@ -1,6 +1,12 @@
 import { Heart, MessageSquare, Share2, ThumbsUp, MoreHorizontal } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";  
-import Map from '../assets/map.svg'
+import ImageOne from '../../src/assets/1.png'
+import ImageTwo from '../../src/assets/2.png'
+import ImageThree from '../../src/assets/3.png'
+import ImageFour from '../../src/assets/4.png'
+import ImageFive from '../../src/assets/5.png'
+import ImageSix from '../../src/assets/6.png'
+import ImageSeven from '../../src/assets/7.png'
 
 interface PostCardProps {
   author: string;
@@ -44,9 +50,9 @@ export default function PostCard({
         <MoreHorizontal className="h-5 w-5 text-gray-500 cursor-pointer" />
       </div>
 
-      <div className="p-4">
+      <div className="p-4 space-y-4">
         <div>
-          <span className="mb-3 whitespace-pre-wrap wrap-break-words">
+          <span className="mb-3 whitespace-pre-wrap wrap-break-words text-sm">
           {displayedText}
 
         </span>
@@ -66,7 +72,7 @@ export default function PostCard({
 
         {imageUrl && (
           <img
-            src={Map}
+            src={imageUrl}
             alt="Post content"
             className="w-full rounded-lg max-h-[500px] object-cover"
           />
@@ -84,18 +90,18 @@ export default function PostCard({
         </div>
       </div>
 
-      <div className="flex border-t">
+      <div className="flex border-t text-sm">
         <button className="flex-1 py-3 flex items-center justify-center gap-2 hover:bg-gray-100">
           <ThumbsUp className="h-5 w-5" />
-          <span>Like</span>
+          <span className="text-sm">Like</span>
         </button>
         <button className="flex-1 py-3 flex items-center justify-center gap-2 hover:bg-gray-100">
           <MessageSquare className="h-5 w-5" />
-          <span>Comment</span>
+          <span className="text-sm">Comment</span>
         </button>
         <button className="flex-1 py-3 flex items-center justify-center gap-2 hover:bg-gray-100">
           <Share2 className="h-5 w-5" />
-          <span>Share</span>
+          <span className="text-sm">Share</span>
         </button>
       </div>
     </div>

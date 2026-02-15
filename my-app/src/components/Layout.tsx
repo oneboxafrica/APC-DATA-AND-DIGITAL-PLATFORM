@@ -16,8 +16,8 @@ import {
   House,
   Eye,
 } from "lucide-react";
-import LogoImg from "../assets/logoimgone.svg";
-import LogoImgTwo from "../assets/logoimgtwo.svg";
+import LogoImg from "../assets/logo1.png";
+import LogoImgTwo from "../assets/logo2.png";
 import ProfileMenu from "./dashboard/profilemenu";
 
 const USER_ROLES = {
@@ -480,7 +480,7 @@ export function Layout() {
 
       <aside className="fixed left-0 top-0 z-50 hidden h-screen w-16 lg:block">
         <div className="mt-2">
-          <div className="flex flex-col items-center justify-center space-y-4 px-2">
+          <div className="flex flex-col items-center justify-center space-y-4 px-2 lg:mt-6">
             <Link to="/dashboard/overview">
               <img src={LogoImg} alt="Logo" className="w-[100%] lg:w-[100%] h-auto cursor-pointer" />
             </Link>
@@ -569,7 +569,7 @@ export function Layout() {
           <div className="fixed inset-0 bg-slate-300 bg-opacity-75" onClick={() => setMobileMenuOpen(false)} />
           <div className="fixed left-0 top-0 h-full flex">
             <aside className="bg-gray-200 w-16 md:w-24">
-              <div className="mt-2">
+              <div className="mt-6  ">
                 <div className="flex flex-col items-center justify-center space-y-4 px-2 pb-4">
                   <Link to="/dashboard/overview">
                     <img src={LogoImg} alt="Logo" className="w-full h-auto cursor-pointer" />
@@ -632,7 +632,7 @@ export function Layout() {
 
             <aside className="bg-white w-64 h-full overflow-y-auto">
               <div className="flex h-16 items-center justify-between border-b border-gray-200 px-4">
-                <h1 className="text-lg font-bold text-gray-900">UBEC</h1>
+                <h1 className="text-lg font-bold text-gray-900">APC PLATFORM</h1>
                 <button onClick={() => setMobileMenuOpen(false)} className="p-1.5 rounded-lg hover:bg-gray-100">
                   <X className="h-5 w-5" />
                 </button>
@@ -672,7 +672,7 @@ export function Layout() {
             </button>
 
             <div className="flex items-center justify-between gap-3 lg:w-[14.5rem] lg:border-r h-[64px]">
-              <h1 className="text-lg font-bold text-gray-900">UBEC</h1>
+              <h1 className="text-lg font-bold text-gray-900">APC PLATFORM</h1>
               <button
                 onClick={() => setSecondSidebarOpen(prev => !prev)}
                 className="hidden lg:block p-2 rounded-lg hover:bg-gray-100"

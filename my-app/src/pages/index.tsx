@@ -6,6 +6,15 @@ import Stories from "../components/Stories";
 import CreatePost from "../components/CreatePost";
 import PostCard from "../components/PostCard";
 import { cn } from "../lib/utils";
+import ImageOne from '../../src/assets/1.png'
+import ImageTwo from '../../src/assets/2.png'
+import ImageThree from '../../src/assets/3.png'
+import ImageFour from '../../src/assets/4.png'
+import ImageFive from '../../src/assets/5.png'
+import ImageSix from '../../src/assets/6.png'
+import ImageSeven from '../../src/assets/7.png'
+
+
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -45,8 +54,8 @@ function App() {
             <PostCard
   author="QueenLemmy Williams"
   time="February 6 at 4:48 PM"
-  content="BREAKUP ALERT! 💔💔💔💔 Bimbo Ademoye and VJ Adams who were rumored to be dating for 5 years now, have unfollowed each other on instagram. Rumo... "
-  imageUrl="https://via.placeholder.com/600x800?text=Breakup+Post+Image"
+  content="Renewed Hope in Action: APC Delivering Results Across the States.."
+  imageUrl={ImageOne}
   reactions={2300}
   comments={539}
   shares={10}
@@ -54,14 +63,65 @@ function App() {
 />
             <PostCard
   author="Legit.ng"
-  time="14h"
-  content="Veekee James and her husband are trending after a prophetess accused them of 'leading people astray' Video and details of what happened in the comments...."
-  imageUrl="https://via.placeholder.com/600x800?text=Legit+Post+Image"
+  time="1h"
+  content="Performance You Can See: APC-Led States Driving Growth and Stability."
+  imageUrl={ImageTwo}
   reactions={1200}
   comments={320}
   shares={45}
-  postId="legit-ng-veekee-2026-045"     // ← another example ID
+  postId="legit-ng-veekee-2026-045"    
 />
+<PostCard
+  author="QueenLemmy Williams"
+  time="February 6 at 4:48 PM"
+  content="From Promise to Progress: APC Governance Across Nigeria."
+  imageUrl={ImageThree}
+  reactions={2300}
+  comments={539}
+  shares={10}
+  postId="breakup-2025-queenlemy-001"  
+/>
+<PostCard
+  author="Gossip-mil"
+  time="February 6 at 4:48 PM"
+  content="Stronger States, Stronger Nation: APC Performance Map."
+  imageUrl={ImageFour}
+  reactions={300}
+  comments={39}
+  shares={10}
+  postId="gossip-mil-001"  
+/>
+<PostCard
+  author="QueenLemmy Williams"
+  time="February 14 at 4:48 PM"
+  content="A Visual Overview of APC-Led States and Key Performance Indicators."
+  imageUrl={ImageFive}
+  reactions={39300}
+  comments={2339}
+  shares={10}
+  postId="breakup-2025-queenlemy-001"  
+/>
+<PostCard
+  author="Mazi Tunde Ednut"
+  time="February 6 at 8:48 AM"
+  content="Governance in Action: Performance Snapshot of APC-Controlled States."
+  imageUrl={ImageSix}
+  reactions={8300}
+  comments={5309}
+  shares={100}
+  postId="mazi-tunde-ednut-009"  
+/>
+<PostCard
+  author="Naija Gossip Blog"
+  time="February 14 at 2:48 PM"
+  content="Mapping Progress: APC State-Level Development Indicators."
+  imageUrl={ImageSeven}
+  reactions={3300}
+  comments={239}
+  shares={14}
+  postId="naija-gossip-blog-01"  
+/>
+
           </main>
 
           <aside className="hidden xl:block xl:w-80 sticky top-14 self-start max-h-[calc(100vh-3.5rem)] overflow-y-auto">

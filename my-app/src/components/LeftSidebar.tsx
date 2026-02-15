@@ -36,7 +36,7 @@ export default function LeftSidebar({ isMobile = false }: LeftSidebarProps) {
         <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold">
           J
         </div>
-        <span className="font-medium">Jos Phyn</span>
+        <span className="font-medium">Jame Manuel</span>
       </div>
 
       {menuItems.map((item, idx) => (
