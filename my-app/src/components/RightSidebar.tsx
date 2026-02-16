@@ -1,4 +1,6 @@
 import { Gift, Sparkles } from "lucide-react";
+import Spons from '../../src/assets/spons.png'
+import Sponstwo from '../../src/assets/spontwo.png'
 
 export default function RightSidebar() {
   return (
@@ -10,7 +12,7 @@ export default function RightSidebar() {
         <div className="space-y-4">
           <div className="cursor-pointer">
             <img
-              src="https://via.placeholder.com/300x150?text=Sponsored+Ad+1"
+              src={Spons}
               alt="Sponsored"
               className="w-full rounded-lg mb-2"
             />
@@ -19,7 +21,7 @@ export default function RightSidebar() {
           </div>
           <div className="cursor-pointer">
             <img
-              src="https://via.placeholder.com/300x150?text=Sponsored+Ad+2"
+              src={Sponstwo}
               alt="Sponsored"
               className="w-full rounded-lg mb-2"
             />

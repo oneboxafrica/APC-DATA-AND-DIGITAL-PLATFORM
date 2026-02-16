@@ -52,17 +52,17 @@ function App() {
             <Stories />
             <CreatePost />
             <PostCard
-  author="QueenLemmy Williams"
+  author="APC - Renew Hope Project"
   time="February 6 at 4:48 PM"
   content="Renewed Hope in Action: APC Delivering Results Across the States.."
   imageUrl={ImageOne}
   reactions={2300}
   comments={539}
   shares={10}
-  postId="breakup-2025-queenlemy-001"  
+  postId="naijablog-001"  
 />
             <PostCard
-  author="Legit.ng"
+  author="APC - Renew Hope Project"
   time="1h"
   content="Performance You Can See: APC-Led States Driving Growth and Stability."
   imageUrl={ImageTwo}
@@ -72,17 +72,17 @@ function App() {
   postId="legit-ng-veekee-2026-045"    
 />
 <PostCard
-  author="QueenLemmy Williams"
+  author="APC - Renew Hope Project"
   time="February 6 at 4:48 PM"
   content="From Promise to Progress: APC Governance Across Nigeria."
   imageUrl={ImageThree}
   reactions={2300}
   comments={539}
   shares={10}
-  postId="breakup-2025-queenlemy-001"  
+  postId="naijablog001"  
 />
 <PostCard
-  author="Gossip-mil"
+  author="APC - Renew Hope Project"
   time="February 6 at 4:48 PM"
   content="Stronger States, Stronger Nation: APC Performance Map."
   imageUrl={ImageFour}
@@ -92,17 +92,17 @@ function App() {
   postId="gossip-mil-001"  
 />
 <PostCard
-  author="QueenLemmy Williams"
+  author="APC - Renew Hope Project"
   time="February 14 at 4:48 PM"
   content="A Visual Overview of APC-Led States and Key Performance Indicators."
   imageUrl={ImageFive}
   reactions={39300}
   comments={2339}
   shares={10}
-  postId="breakup-2025-queenlemy-001"  
+  postId="naijablog-001"  
 />
 <PostCard
-  author="Mazi Tunde Ednut"
+  author="APC - Renew Hope Project"
   time="February 6 at 8:48 AM"
   content="Governance in Action: Performance Snapshot of APC-Controlled States."
   imageUrl={ImageSix}
@@ -112,7 +112,7 @@ function App() {
   postId="mazi-tunde-ednut-009"  
 />
 <PostCard
-  author="Naija Gossip Blog"
+  author="APC - Renew Hope Project"
   time="February 14 at 2:48 PM"
   content="Mapping Progress: APC State-Level Development Indicators."
   imageUrl={ImageSeven}

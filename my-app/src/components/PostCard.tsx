@@ -72,6 +72,7 @@ export default function PostCard({
 
         {imageUrl && (
           <img
+          onClick={() => navigate(`/dashboard`)}
             src={imageUrl}
             alt="Post content"
             className="w-full rounded-lg max-h-[500px] object-cover"
